@@ -1,43 +1,33 @@
 //
 //  main.swift
-//  Shopping2
+//  Day7
 //
-//  Created by MacStudent on 2018-07-20.
+//  Created by MacStudent on 2018-07-21.
 //  Copyright © 2018 MacStudent. All rights reserved.
 //
 
 import Foundation
 
-//print("Hello, World!")
+print("Hello, World!")
 
-//var tejas = Customer()
+var gurpreet = PermanentEmp(empID: 110, empName: "Gurpreet", basicPay: 40000.00, holiday: 4)
+gurpreet.display()
 
-//print(tejas.displayData())
+var govinda = TempEmp(empID: 111, empName: "Govinda", basicPay: 10000.00, holiday: 24)
+govinda.display()
 
-//var jatinder = Customer(customerID: 101, customerName: "Jatinder", address: "Attmar Dr. Brampton", email: "Jatinder@mad.com", creditCardInfo: "4520-0100-1234-5678", shippingInfo: "Ship at lambton college between 1PM to 5PM")
-//print("\(jatinder.displayData())")
 
-//tejas.CustomerID = 102
-//tejas.CustomerName = "Tejas"
-//tejas.Address = "Oshawa"
-//tejas.Email = "Tejas@mad.com"
-//tejas.CreditCardInfo = "4520-0100-9876-7865"
-//tejas.ShippingInfo = "Don't Deliver between 1PM to 5PM"
-//print(tejas.displayData())
+print(12344.56)
+print(12_344.56)
+print(1_2344.56.asCurrency)
 
-//var navdeep = Customer()
-//navdeep.registerUser()
-//print(navdeep.displayData())
+print("7 is prime number : \(7.isPrime)")
+print("1 is prime number : \(1.isPrime)")
+print("12 is prime number : \(12.isPrime)")
 
-//var epson = Product(productID: 101, productName: "Projector", manufacturer: "Epson", unitPrice: 897.56,category: ProductCategory.Appliances)
-//print(epson.displayData())
 
-//var handcream = Product()
-//handcream.newProduct()
-//print(handcream.displayData())
-
-var dataHelper = DataHelper()
-dataHelper.displayProducts()
-
+3.wish {
+    print("Happy Birthday Navdeep")
+}
 
 
